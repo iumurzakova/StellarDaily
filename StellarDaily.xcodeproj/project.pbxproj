@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92ADA5F7EACBE611A27C662D /* Pods_StellarDaily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A5AEAF1E1936F75295CAF /* Pods_StellarDaily.framework */; };
+		FD161B5B29E03497001E9E5D /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD161B5A29E03497001E9E5D /* NewsCell.swift */; };
 		FD486C8B29CB0ED2002A5E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486C8A29CB0ED2002A5E25 /* AppDelegate.swift */; };
 		FD486C8D29CB0ED2002A5E25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486C8C29CB0ED2002A5E25 /* SceneDelegate.swift */; };
-		FD486C8F29CB0ED2002A5E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486C8E29CB0ED2002A5E25 /* ViewController.swift */; };
 		FD486C9229CB0ED2002A5E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD486C9029CB0ED2002A5E25 /* Main.storyboard */; };
 		FD486C9429CB0ED3002A5E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD486C9329CB0ED3002A5E25 /* Assets.xcassets */; };
 		FD486C9729CB0ED3002A5E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD486C9529CB0ED3002A5E25 /* LaunchScreen.storyboard */; };
+		FD486C9F29CB1626002A5E25 /* NasaNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486C9E29CB1626002A5E25 /* NasaNewsVC.swift */; };
+		FD486CA129CB1799002A5E25 /* NasaNewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486CA029CB1799002A5E25 /* NasaNewsDetailVC.swift */; };
+		FDE87A3F29DFEAE7007B4671 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = FDE87A3E29DFEAE7007B4671 /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		562A5AEAF1E1936F75295CAF /* Pods_StellarDaily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellarDaily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E93B45DF1BA284D4540EA15 /* Pods-StellarDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarDaily.release.xcconfig"; path = "Target Support Files/Pods-StellarDaily/Pods-StellarDaily.release.xcconfig"; sourceTree = "<group>"; };
+		FD161B5A29E03497001E9E5D /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		FD486C8729CB0ED2002A5E25 /* StellarDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD486C8A29CB0ED2002A5E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD486C8C29CB0ED2002A5E25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD486C8E29CB0ED2002A5E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD486C9129CB0ED2002A5E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD486C9329CB0ED3002A5E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD486C9629CB0ED3002A5E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD486C9829CB0ED3002A5E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD486C9E29CB1626002A5E25 /* NasaNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaNewsVC.swift; sourceTree = "<group>"; };
+		FD486CA029CB1799002A5E25 /* NasaNewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaNewsDetailVC.swift; sourceTree = "<group>"; };
+		FF78383A4297AAFDB9F4D682 /* Pods-StellarDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarDaily.debug.xcconfig"; path = "Target Support Files/Pods-StellarDaily/Pods-StellarDaily.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ADA5F7EACBE611A27C662D /* Pods_StellarDaily.framework in Frameworks */,
+				FDE87A3F29DFEAE7007B4671 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0D1750AB6E02F10CDB8E89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF78383A4297AAFDB9F4D682 /* Pods-StellarDaily.debug.xcconfig */,
+				7E93B45DF1BA284D4540EA15 /* Pods-StellarDaily.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCB31FC93C9B94F4C578B956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562A5AEAF1E1936F75295CAF /* Pods_StellarDaily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD486C7E29CB0ED2002A5E25 = {
 			isa = PBXGroup;
 			children = (
 				FD486C8929CB0ED2002A5E25 /* StellarDaily */,
 				FD486C8829CB0ED2002A5E25 /* Products */,
+				E0D1750AB6E02F10CDB8E89D /* Pods */,
+				FCB31FC93C9B94F4C578B956 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +88,10 @@
 			children = (
 				FD486C8A29CB0ED2002A5E25 /* AppDelegate.swift */,
 				FD486C8C29CB0ED2002A5E25 /* SceneDelegate.swift */,
-				FD486C8E29CB0ED2002A5E25 /* ViewController.swift */,
 				FD486C9029CB0ED2002A5E25 /* Main.storyboard */,
+				FD486C9E29CB1626002A5E25 /* NasaNewsVC.swift */,
+				FD161B5A29E03497001E9E5D /* NewsCell.swift */,
+				FD486CA029CB1799002A5E25 /* NasaNewsDetailVC.swift */,
 				FD486C9329CB0ED3002A5E25 /* Assets.xcassets */,
 				FD486C9529CB0ED3002A5E25 /* LaunchScreen.storyboard */,
 				FD486C9829CB0ED3002A5E25 /* Info.plist */,
@@ -74,15 +106,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD486C9B29CB0ED3002A5E25 /* Build configuration list for PBXNativeTarget "StellarDaily" */;
 			buildPhases = (
+				DFC969BBFFF1E02808111284 /* [CP] Check Pods Manifest.lock */,
 				FD486C8329CB0ED2002A5E25 /* Sources */,
 				FD486C8429CB0ED2002A5E25 /* Frameworks */,
 				FD486C8529CB0ED2002A5E25 /* Resources */,
+				263A8EEA3BCA66F11D470702 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = StellarDaily;
+			packageProductDependencies = (
+				FDE87A3E29DFEAE7007B4671 /* CachedAsyncImage */,
+			);
 			productName = StellarDaily;
 			productReference = FD486C8729CB0ED2002A5E25 /* StellarDaily.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = FD486C7E29CB0ED2002A5E25;
+			packageReferences = (
+				FDE87A3D29DFEAE7007B4671 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = FD486C8829CB0ED2002A5E25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +173,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		263A8EEA3BCA66F11D470702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellarDaily/Pods-StellarDaily-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellarDaily/Pods-StellarDaily-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StellarDaily/Pods-StellarDaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC969BBFFF1E02808111284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellarDaily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD486C8329CB0ED2002A5E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD486C8F29CB0ED2002A5E25 /* ViewController.swift in Sources */,
 				FD486C8B29CB0ED2002A5E25 /* AppDelegate.swift in Sources */,
 				FD486C8D29CB0ED2002A5E25 /* SceneDelegate.swift in Sources */,
+				FD486CA129CB1799002A5E25 /* NasaNewsDetailVC.swift in Sources */,
+				FD486C9F29CB1626002A5E25 /* NasaNewsVC.swift in Sources */,
+				FD161B5B29E03497001E9E5D /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +368,7 @@
 		};
 		FD486C9C29CB0ED3002A5E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF78383A4297AAFDB9F4D682 /* Pods-StellarDaily.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,9 +376,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StellarDaily/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +399,7 @@
 		};
 		FD486C9D29CB0ED3002A5E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E93B45DF1BA284D4540EA15 /* Pods-StellarDaily.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +407,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StellarDaily/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDE87A3D29DFEAE7007B4671 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDE87A3E29DFEAE7007B4671 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDE87A3D29DFEAE7007B4671 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD486C7F29CB0ED2002A5E25 /* Project object */;
 }
